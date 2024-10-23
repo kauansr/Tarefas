@@ -2,7 +2,8 @@
 - Um sistema de tarefas onde o usuario pode se cadastrar e adicionar, excluir, atualizar e ver as tarefas que o usuario adicionou
 
 ## Tecnologias usadas
-- Express js -> Usado para criar as API do sistema
+- node.js -> Usado para a execucao dos codigos
+- Express.js -> Usado para criar as API do sistema
 - MySql -> Usado como banco de dados
 - Jwt -> Usado para codificar os dados do usuario
 
