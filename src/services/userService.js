@@ -21,8 +21,8 @@ class UserService {
     return { token };
   }
 
-  async getAllUsers() {
-    return await db.query('SELECT * FROM users');
+  async getAllUsers(id) {
+    return await db.query('SELECT * FROM users WHERE id = ?',[id]);
   }
 
   async getUserById(id) {

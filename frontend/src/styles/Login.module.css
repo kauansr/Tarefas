@@ -1,0 +1,109 @@
+body {
+  background-color: #f0f4f8;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.title {
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.loginform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.inputrow {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+div form input[type='email'],
+div form input[type='password'] {
+  flex: 1;
+  min-width: 15rem;
+  padding: 10px;
+  margin: 25px 4px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 3px rgba(49, 182, 164, 0.1);
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+div form input[type='email']:focus,
+div form input[type='password']:focus {
+  border-color: #36b4c5;
+  outline: none;
+}
+
+div form button {
+  min-width: 100px;
+  background-color: #1f97a7;
+  color: #ffffff;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 30px 10px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+div form button:hover {
+  background-color: #5dcee2;
+  transform: scale(1.02);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  text-align: center;
+  color: #555;
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 24px;
+  }
+
+  input[type='email'],
+  input[type='password'] {
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+
+  li {
+    margin: 5px;
+  }
+}
