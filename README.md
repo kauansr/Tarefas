@@ -13,7 +13,7 @@
 - npm i
 - node src\index.js
 
-frontend
+Frontend
 - cd tarefas
 - cd frontend
 - npm i
