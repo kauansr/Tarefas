@@ -61,7 +61,7 @@ function Login() {
                 <ul>
                     <li>
                         Don't have an account? <br />
-                        <Link to="/sign-up">Sign-up</Link>
+                        <Link to="/cadastrar">Sign-up</Link>
                     </li>
                 </ul>
             </div>
